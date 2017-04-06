@@ -1,12 +1,7 @@
 # Assignment 02
 
-**RESTful Project**
 
-**Due Date: Week 11 - Midnight of 4/5/2017**
-
-## :star2: [Accept Assignment](https://classroom.github.com/assignment-invitations/36e19048eb7663ae1786db6d71333cef)
-
-## Assignment Specification
+## Assignment Description
 Develop a small project using a RESTful API of your own choice. 
 You may combine two or more APIs if you need to.
 *The only minimum requirement is to demonstrate usage at least 5 different API requests*
