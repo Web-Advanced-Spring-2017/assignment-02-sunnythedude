@@ -2,7 +2,10 @@
 
 
 ## Assignment Description
-I used the Twitter and Google Maps API'S. I used the Google Maps API to display the New School University Center's location on a map and the twitter API to do two things. Firstly to send out a tweet every 20 seconds on my Twitter Feed and secondly to send out a bot generated reply everytime someone followed me on twitter.
+* I used the Twitter, Instagram & Google Maps API'S. 
+* I used the Google Maps API to display some New School locations I frequent on a map along with a pop up label that appears when you click on the marker.
+* I used the twitter API to do two things. Firstly to send out a tweet (one of a possible six within an array) every 20 seconds on my Twitter Feed and secondly to send out a bot generated reply everytime someone follows me on twitter.
+* I used the Instagram API to grab the images from my instagram and post them onto an HTML page.
 
 
 
