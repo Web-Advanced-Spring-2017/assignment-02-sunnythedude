@@ -9,6 +9,8 @@
 
 
 
+**Twitter API**
+
 
 ## Resources
 Daniel Shiffman - Node.js and Twitter API tutorial [https://www.youtube.com/watch?v=RF5_MPSNAtU&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV]
