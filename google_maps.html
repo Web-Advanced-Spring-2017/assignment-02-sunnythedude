@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+<style type="text/css">
+
+       html, body, #map-canvas {
+            height: 400px;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }
+
+        #infowindow{
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+</style>
+
+</head>
+<body>
+<h1>Newschool Locations</h1>
+    <div id="map-canvas"></div>
+
+<script type="text/javascript">
+        var locations = [
+          ["University Center", 40.735487, -73.993556],
+          ["20th Street Residence", 40.743483, -74.000393],
+          ["D12", 40.737036, -73.992399],
+          ["Eugene Lang", 40.735256, -73.997508]
+        ];
+
+        function initGoogleMap(){
+
+          var infowindow = new google.maps.InfoWindow(); /* SINGLE */
+          var map = new google.maps.Map(document.getElementById('map-canvas'), {
+              zoom: 15,
+              center: new google.maps.LatLng(40.740177, -73.997814)
+          });
+          
+          function placeMarker( loc ) {
+            var latLng = new google.maps.LatLng( loc[1], loc[2]);
+            var marker = new google.maps.Marker({
+              position : latLng,
+              map      : map
+            });
+            google.maps.event.addListener(marker, 'click', function(){
+                infowindow.close(); // Close previously opened infowindow
+                infowindow.setContent( "<div id='infowindow'>"+ loc[0] +"</div>");
+                infowindow.open(map, marker);
+            });
+          }
+          
+
+          for(var i=0; i<locations.length; i++) {
+            placeMarker( locations[i] );
+          } 
+          
+        }
+        google.maps.event.addDomListener(window, 'load', initGoogleMap);
+</script>
+</body>
+
+
+</html>

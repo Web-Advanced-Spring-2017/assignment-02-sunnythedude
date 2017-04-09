@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instagram API</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+
+<style type="text/css">
+
+h1 {
+	text-align: center;
+}
+	
+#rudr_instafeed{
+    list-style:none;
+	margin: 0 13%;
+    width: 80%;
+}
+#rudr_instafeed li{
+  float:left;
+  width:200px;
+  height:200px;
+  margin:10px
+}
+#rudr_instafeed li img{
+  max-width:100%;
+  max-height:100%;
+}
+
+
+</style>
+
+<body>
+<h1>My Instagram Feed</h1>
+	<ul id="rudr_instafeed"></ul>
+
+
+<script type="text/javascript">
+
+
+var token = '5092690133.1677ed0.77768755bcae47d99c0817bc509e9a9e',
+    num_photos = 12;
+ 
+$.ajax({
+    url: 'https://api.instagram.com/v1/users/self/media/recent',
+    dataType: 'jsonp',
+    type: 'GET',
+    data: {access_token: token, count: num_photos},
+    success: function(data){
+        console.log(data);
+        for( x in data.data ){
+            $('ul').append('<li><img src="'+data.data[x].images.low_resolution.url+'"></li>');
+        }
+    },
+    error: function(data){
+        console.log(data);
+    }
+});
+
+
+</script>
+</body>
+</html>
