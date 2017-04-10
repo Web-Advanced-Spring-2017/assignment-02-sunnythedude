@@ -21,6 +21,10 @@ We run the node server
 
 The Array with the selection of tweets, Math.random is used to randomize the order. 
 ![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/tweets_array.png)
+<br/>
+
+The Result:
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/tweets.png)
 
 
 ## Resources
