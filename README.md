@@ -13,12 +13,14 @@
 I used the Twitter API to perform 2 tasks:
 
 1. To send out one of six possible tweets every 20 seconds. 
+<br/>
 
-
-First we run the node server
+We run the node server
 ![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/command%20line.png)         
+<br/>
 
-
+The Array with the selection of tweets, Math.random is used to randomize the order. 
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/tweets_array.png)
 
 
 ## Resources
