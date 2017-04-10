@@ -27,7 +27,7 @@ The Result
 ![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/tweets.png)
 <br/><br/>
 
-1. To send out one of six possible tweets every 20 seconds. 
+2. To send out a pre-generated message anytime my account was followed. 
 <br/>
 
 ## Resources
