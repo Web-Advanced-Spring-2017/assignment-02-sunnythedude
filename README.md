@@ -7,8 +7,7 @@
 * I used the twitter API to do two things. Firstly to send out a tweet (one of a possible six within an array) every 20 seconds on my Twitter Feed and secondly to send out a bot generated reply everytime someone follows me on twitter.
 * I used the Instagram API to grab the images from my instagram and post them onto an HTML page.
 
-
-
+<Enter>
 **Twitter API**
 
 
