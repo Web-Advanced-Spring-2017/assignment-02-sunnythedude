@@ -19,13 +19,16 @@ We run the node server
 ![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/command%20line.png)         
 <br/>
 
-The Array with the selection of tweets, Math.random is used to randomize the order. 
+The Array with the selection of tweets, Math.random is used to randomize the order
 ![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/tweets_array.png)
-<br/>
+<br/><br/>
 
-The Result:
+The Result
 ![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/tweets.png)
+<br/><br/>
 
+1. To send out one of six possible tweets every 20 seconds. 
+<br/>
 
 ## Resources
 Daniel Shiffman - Node.js and Twitter API tutorial [https://www.youtube.com/watch?v=RF5_MPSNAtU&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV]
