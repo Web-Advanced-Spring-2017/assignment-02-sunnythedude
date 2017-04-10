@@ -39,10 +39,37 @@ Which runs the follow function
 <br/><br/>
 
 Resulting in the bot reply upon recieving a new follower
+<br/>
 <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_wall.png" width="200" hspace="30"/> <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_follow.png" width="200" hspace="30"/>  <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/bot_response.png" width="200" hspace="30"/>
 <br/><br/><br/>
 
 **Google Maps API**
+
+* I used the google maps API to generate a map with multiple markers.
+* All locations are Newschool owned places that I frequent.
+* I used geographical coordinates to accurately pinpoint the locations using http://www.latlong.net/.
+<br/>
+
+The Locations are defined in the locations array along with the coordinates 
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/locations.png)
+<br/><br/>
+
+The Result:
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/google_maps.png)
+<br/>
+
+The Infowindow is a label that appears when the marker is clicked. There's actually no discernible word limit but I chose to just add the Laocation name associated with the marker
+<br/>
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/infowindow.png)
+<br/>
+
+**Instagram API**
+
+I used the Instagram API to grab the images uploaded to my instagram account and then using jQuery append them to an unordered list in list form.
+<br/>
+
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/instagram.png)
+<br/>
 
 
 ## Resources
