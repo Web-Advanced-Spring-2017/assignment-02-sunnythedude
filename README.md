@@ -14,6 +14,8 @@ I used the Twitter API to perform 2 tasks:
 
 1. To send out one of six possible tweets every 20 seconds. 
 
+
+First we run the node server
 ![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/command%20line.png)         
 
 
