@@ -30,5 +30,8 @@ The Result
 2. To send out a pre-generated message anytime my account was followed. 
 <br/>
 
+<img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_wall.png" width="200"/> <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_follow.png" width="200" margin-left="50px"/> <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/bot_response.png" width="200" margin-left="50px"/>
+
+
 ## Resources
 Daniel Shiffman - Node.js and Twitter API tutorial [https://www.youtube.com/watch?v=RF5_MPSNAtU&list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV]
