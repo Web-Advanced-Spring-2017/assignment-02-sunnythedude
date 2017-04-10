@@ -30,7 +30,13 @@ The Result
 2. To send out a pre-generated message anytime my account was followed. 
 <br/>
 
-<img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_wall.png" width="200"/> <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_follow.png" width="200" margin-left="50px"/> <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/bot_response.png" width="200" margin-left="50px"/>
+First we run the node server
+![Alt text]()
+
+<img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_wall.png" width="200" hspace="30"/> <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_follow.png" width="200" hspace="30"/>  <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/bot_response.png" width="200" hspace="30"/>
+<br/><br/><br/>
+
+**Google Maps API**
 
 
 ## Resources
