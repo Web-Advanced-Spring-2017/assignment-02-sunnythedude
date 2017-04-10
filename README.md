@@ -31,7 +31,12 @@ The Result
 <br/>
 
 First we run the node server
-![Alt text]()
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/twitter_follow_cmd.png)
+<br/><br/>
+
+Which runs the follow function
+![Alt text](https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/tweet_2_code.png)
+<br/><br/>
 
 <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_wall.png" width="200" hspace="30"/> <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/phone_follow.png" width="200" hspace="30"/>  <img src="https://github.com/Web-Advanced-Spring-2017/assignment-02-sunnythedude/blob/master/img/bot_response.png" width="200" hspace="30"/>
 <br/><br/><br/>
