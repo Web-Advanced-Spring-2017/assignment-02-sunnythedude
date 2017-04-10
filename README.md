@@ -6,9 +6,17 @@
 * I used the Google Maps API to display some New School locations I frequent on a map along with a pop up label that appears when you click on the marker.
 * I used the twitter API to do two things. Firstly to send out a tweet (one of a possible six within an array) every 20 seconds on my Twitter Feed and secondly to send out a bot generated reply everytime someone follows me on twitter.
 * I used the Instagram API to grab the images from my instagram and post them onto an HTML page.
+<br/>
 
-<Enter>
 **Twitter API**
+
+I used the Twitter API to perform 2 tasks:
+
+1. To send out one of six possible tweets every 20 seconds. 
+
+![Alt text](/path/to/img.jpg)         ![Alt text](/path/to/img.jpg)
+
+
 
 
 ## Resources
